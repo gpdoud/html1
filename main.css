@@ -1,0 +1,79 @@
+body {
+	font-family: Tahoma, Arial, Sans-Serif;
+	font-size: 16pt;
+	border: 0; padding: 0; margin: 0;
+}
+p {
+	margin-top: 0; margin-bottom: .5em;
+}
+#header {
+	text-align: center;
+	font-size: 1.2em;
+}
+#footer {
+	font-size: .6em;
+	margin-top: 2em;
+	border-top: 1px solid silver;
+	text-align: center;
+	color: silver;
+	background: #333;
+}
+#heading {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+#content {
+	margin: 0 30px;
+}
+#content ul li {
+	font-style: italic;
+	margin-top: 1em;
+}
+#contactinfo {
+	font-size: 1.3em;
+}
+.sectionheaders {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 1em;
+}
+.indented {
+	margin-left: 30px;	
+}
+.table {
+	border: 1px solid silver;
+	border-collapse: collapse;
+	width: 80%;
+}
+thead {
+	color: white;
+	background: grey;
+	font-size: 0.8em;
+	font-style: italic;
+}
+/* Menu bar */
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+    background-color: #111;
+}
