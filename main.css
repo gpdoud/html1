@@ -1,0 +1,18 @@
+div {
+	color: red;
+}
+form {
+	display: none;
+}
+div < p {
+	color:green;
+}
+#p1 {
+	text-align:right;
+}
+#p3 {
+	font-family: Arial;
+}
+.top {
+	color: green;
+}
